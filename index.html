@@ -41,7 +41,6 @@
       padding: 0 20px;
     }
 
-    /* TOP BAR */
     .top-bar {
       background: var(--navy);
       color: var(--white);
@@ -63,7 +62,6 @@
       font-weight: 700;
     }
 
-    /* HEADER */
     header {
       background: var(--white);
       position: sticky;
@@ -160,7 +158,6 @@
       cursor: pointer;
     }
 
-    /* HERO */
     .hero {
       background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
       color: var(--white);
@@ -225,7 +222,6 @@
       margin: 0 auto;
     }
 
-    /* SECTIONS */
     section {
       padding: 60px 0;
     }
@@ -284,7 +280,6 @@
       padding: 4px 0;
     }
 
-    /* CALCULATOR */
     .calc-wrap {
       background: var(--white);
       border: 1px solid var(--border);
@@ -366,7 +361,6 @@
       color: #FCA5A5;
     }
 
-    /* FOOTER */
     footer {
       background: #06172D;
       color: #CBD5E1;
@@ -400,4 +394,318 @@
     <div class="container top-bar-inner">
       <div data-hr="Slovenija • EU • Balkan | 24/7" data-slo="Slovenija • EU • Balkan | 24/7">Slovenija • EU • Balkan | 24/7</div>
       <div>
-        📞 <a href="tel:+38640390398">040
+        📞 <a href="tel:+38640390398">040 390 398 (+386 40 390 398)</a> &nbsp;|&nbsp;
+        ✉️ <a href="mailto:hodzictransport87@gmail.com">hodzictransport87@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav-inner">
+      <a href="#top" class="brand-title">HODŽIĆ TRANSPORT s.p. <span>HITRO, VARNO, ZANESLJIVO</span></a>
+      <nav class="nav-links">
+        <a href="#vozni-park" data-hr="Vozni park" data-slo="Vozni park">Vozni park</a>
+        <a href="#kalkulator" data-hr="Naruči prijevoz" data-slo="Naroči prevoz">Naruči prijevoz</a>
+        <a href="#kontakt" data-hr="Kontakt" data-slo="Kontakt">Kontakt</a>
+        <button type="button" class="lang-btn" id="langBtn" onclick="toggleLang()">SLO 🇸🇮</button>
+        <a href="#kalkulator" class="btn-green" data-hr="Zatraži ponudu" data-slo="Povpraševanje">Zatraži ponudu</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge" data-hr="PREVOZ BLAGA OD TOČKE A DO TOČKE B" data-slo="PREVOZ BLAGA OD TOČKE A DO TOČKE B">PREVOZ BLAGA OD TOČKE A DO TOČKE B</div>
+        <h1 data-hr="Pouzdan cestovni prijevoz robe — <span>hitro, varno, zanesljivo.</span>" data-slo="Zanesljiv cestni prevoz blaga — <span>hitro, varno, zanesljivo.</span>">Pouzdan cestovni prijevoz robe — <span>hitro, varno, zanesljivo.</span></h1>
+        <p data-hr="HODŽIĆ TRANSPORT s.p. organizira brze ekspresne dostave kombi vozilima te paletne i kompletne utovare diljem Slovenije, Europske unije i regije." data-slo="HODŽIĆ TRANSPORT s.p. organizira hitre ekspresne dostave s kombi vozili ter paletne in kompletne prevoze po Sloveniji, Evropski uniji in regiji.">HODŽIĆ TRANSPORT s.p. organizira brze ekspresne dostave kombi vozilima te paletne i kompletne utovare diljem Slovenije, Europske unije i regije.</p>
+        <div class="hero-actions">
+          <a href="#kalkulator" class="btn-green" data-hr="Naruči prijevoz" data-slo="Naroči prevoz">Naruči prijevoz</a>
+          <a href="tel:+38640390398" class="btn-light">📞 040 390 398</a>
+        </div>
+      </div>
+
+      <div class="logo-card">
+        <img src="Hodzic.jpg" alt="HODŽIĆ TRANSPORT s.p. logo" onerror="this.style.display='none'; document.getElementById('logoFallback').style.display='block';" />
+        <div id="logoFallback" style="display:none; padding: 18px 8px;">
+          <div style="font-size: 2rem; font-weight: 900; color: #0A2647;">HODŽIĆ</div>
+          <div style="font-size: 1.1rem; font-weight: 800; color: #0A2647; letter-spacing: 1.5px;">TRANSPORT s.p.</div>
+          <div style="font-size: 0.85rem; font-weight: 700; color: #168A48; margin-top: 6px;">PREVOZ BLAGA OD TOČKE A DO TOČKE B</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vozni-park">
+    <div class="container">
+      <div class="sec-head">
+        <h2 data-hr="Vozni park i usluge" data-slo="Vozni park in storitve">Vozni park i usluge</h2>
+        <p data-hr="Direktan prijevoz od vrata do vrata bez pretovara za hitne i redovne pošiljke." data-slo="Neposreden prevoz od vrat do vrat brez prekladanja za nujne in redne pošiljke.">Direktan prijevoz od vrata do vrata bez pretovara za hitne i redovne pošiljke.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3 data-hr="🚐 Furgon / Kombi Express" data-slo="🚐 Furgon / Kombi Express">🚐 Furgon / Kombi Express</h3>
+          <p data-hr="Brza isporuka za hitne pošiljke po Sloveniji i EU." data-slo="Hitra dostava za nujne pošiljke po Sloveniji in EU.">Brza isporuka za hitne pošiljke po Sloveniji i EU.</p>
+          <ul>
+            <li><span data-hr="Kapacitet:" data-slo="Kapaciteta:">Kapacitet:</span> <strong>4 – 5 EUR paleta</strong></li>
+            <li><span data-hr="Nosivost:" data-slo="Nosilnost:">Nosivost:</span> <strong>do 1.300 kg</strong></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 data-hr="🚚 Kombi s ceradom" data-slo="🚚 Kombi s ponjavo">🚚 Kombi s ceradom</h3>
+          <p data-hr="Praktičan utovar viličarom za veći volumen robe." data-slo="Praktičen naklad z viličarjem za večji volumen blaga.">Praktičan utovar viličarom za veći volumen robe.</p>
+          <ul>
+            <li><span data-hr="Kapacitet:" data-slo="Kapaciteta:">Kapacitet:</span> <strong>8 – 10 EUR paleta</strong></li>
+            <li><span data-hr="Osiguranje:" data-slo="Zavarovanje:">Osiguranje:</span> <strong>CMR</strong></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 data-hr="🚛 Solo kamion / Šleper" data-slo="🚛 Solo tovornjak / Vlačilec">🚛 Solo kamion / Šleper</h3>
+          <p data-hr="Kompletni i zbirni utovari za veće količine tereta." data-slo="Kompletni in zbirni tovori za večje količine blaga.">Kompletni i zbirni utovari za veće količine tereta.</p>
+          <ul>
+            <li><span data-hr="Kapacitet:" data-slo="Kapaciteta:">Kapacitet:</span> <strong>18 – 33 EUR paleta</strong></li>
+            <li><span data-hr="Nosivost:" data-slo="Nosilnost:">Nosivost:</span> <strong>do 24.000 kg</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kalkulator" style="padding-top: 0;">
+    <div class="container">
+      <div class="sec-head">
+        <h2 data-hr="Kalkulator i narudžba prijevoza (A → B)" data-slo="Kalkulator in naročilo prevoza (A → B)">Kalkulator i narudžba prijevoza (A → B)</h2>
+        <p data-hr="Unesite podatke o ruti i svoje kontakt podatke kako bismo vam poslali ponudu ili potvrdili utovar." data-slo="Vnesite podatke o relaciji in svoje kontaktne podatke, da vam pošljemo ponudbo ali potrdimo naklad.">Unesite podatke o ruti i svoje kontakt podatke kako bismo vam poslali ponudu ili potvrdili utovar.</p>
+      </div>
+
+      <form class="calc-wrap" id="orderForm" onsubmit="handleOrderSubmit(event)">
+        <div class="form-grid">
+          <div class="field">
+            <label for="pointA" data-hr="Točka A (Utovar)" data-slo="Točka A (Naklad)">Točka A (Utovar)</label>
+            <input type="text" id="pointA" value="Ljubljana, SI" required oninput="calcPrice()" />
+          </div>
+          <div class="field">
+            <label for="pointB" data-hr="Točka B (Istovar)" data-slo="Točka B (Razklad)">Točka B (Istovar)</label>
+            <input type="text" id="pointB" value="München, DE" required oninput="calcPrice()" />
+          </div>
+          <div class="field">
+            <label for="km" data-hr="Udaljenost (km)" data-slo="Razdalja (km)">Udaljenost (km)</label>
+            <input type="number" id="km" value="405" min="10" required oninput="calcPrice()" />
+          </div>
+          <div class="field">
+            <label for="weight" data-hr="Težina (kg)" data-slo="Teža (kg)">Težina (kg)</label>
+            <input type="number" id="weight" value="850" min="1" required oninput="calcPrice()" />
+          </div>
+          <div class="field">
+            <label for="pallets" data-hr="Broj EUR paleta" data-slo="Število EUR palet">Broj EUR paleta</label>
+            <input type="number" id="pallets" value="4" min="0" max="33" oninput="calcPrice()" />
+          </div>
+          <div class="field">
+            <label for="pickupDate" data-hr="Datum utovara" data-slo="Datum naklada">Datum utovara</label>
+            <input type="date" id="pickupDate" />
+          </div>
+          <div class="field">
+            <label for="urgency" data-hr="Vrsta usluge" data-slo="Vrsta storitve">Vrsta usluge</label>
+            <select id="urgency" onchange="calcPrice()">
+              <option value="standard" data-hr="Standardni prijevoz" data-slo="Standardni prevoz">Standardni prijevoz</option>
+              <option value="express" data-hr="Ekspres 24/7 (+25%)" data-slo="Ekspres 24/7 (+25%)">Ekspres 24/7 (+25%)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="clientVat" data-hr="OIB / ID porezni broj firme" data-slo="Davčna / ID številka podjetja">OIB / ID porezni broj firme</label>
+            <input type="text" id="clientVat" placeholder="npr. SI12345678" />
+          </div>
+          <div class="field">
+            <label for="clientEmail"><span data-hr="Vaš e-mail (naručilac)" data-slo="Vaš e-poštni naslov (naročnik)">Vaš e-mail (naručilac)</span> <span class="req-star">*</span></label>
+            <input type="email" id="clientEmail" required placeholder="npr. ime@firma.si" oninput="clearFieldError()" />
+          </div>
+          <div class="field">
+            <label for="clientCompanyContact"><span data-hr="Kontakt firme / telefon" data-slo="Kontakt podjetja / telefon">Kontakt firme / telefon</span> <span class="req-star">*</span></label>
+            <input type="text" id="clientCompanyContact" required placeholder="npr. Naziv firme d.o.o., +386 ..." oninput="clearFieldError()" />
+          </div>
+          <div class="field" style="grid-column: 1 / -1;">
+            <label for="orderNotes" data-hr="Napomena za utovar / istovar" data-slo="Opomba za naklad / razklad">Napomena za utovar / istovar</label>
+            <textarea id="orderNotes" placeholder="npr. radno vrijeme skladišta, viličar, rampa ili posebne upute..."></textarea>
+          </div>
+        </div>
+
+        <div class="result-box">
+          <div>
+            <div style="font-size: 0.8rem; text-transform: uppercase; color: #94A3B8; font-weight: 700;" data-hr="Informativna procjena" data-slo="Informativna ocena">Informativna procjena</div>
+            <div class="price-out" id="priceOut">325 € – 385 €</div>
+            <div style="font-size: 0.9rem; color: #CBD5E1;" id="vehicleOut">Preporučeno: Kombi Express (do 1.3t)</div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 18px;">
+            <button type="submit" class="btn-green">
+              ✉️ <span data-hr="Pošalji upit na e-mail" data-slo="Pošlji povpraševanje">Pošalji upit na e-mail</span>
+            </button>
+            <button type="button" class="btn-light" onclick="copyOrderText()">
+              📋 <span data-hr="Kopiraj podatke narudžbe" data-slo="Kopiraj podatke naročila">Kopiraj podatke narudžbe</span>
+            </button>
+            <a href="tel:+38640390398" class="btn-light">📞 040 390 398</a>
+            <div class="status-msg" id="statusMsg"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer id="kontakt">
+    <div class="container" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+      <div>
+        <strong style="color: #FFFFFF; font-size: 1.05rem;">HODŽIĆ TRANSPORT s.p.</strong><br />
+        Prevoz blaga od točke A do točke B • Hitro, varno, zanesljivo
+      </div>
+      <div>
+        📞 <a href="tel:+38640390398">040 390 398</a> (+386 40 390 398) &nbsp;|&nbsp;
+        ✉️ <a href="mailto:hodzictransport87@gmail.com">hodzictransport87@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let lang = 'hr';
+
+    function toggleLang() {
+      lang = lang === 'hr' ? 'slo' : 'hr';
+      document.getElementById('langBtn').textContent = lang === 'hr' ? 'SLO 🇸🇮' : 'HR 🇭🇷';
+      document.querySelectorAll('[data-hr]').forEach((el) => {
+        el.innerHTML = el.getAttribute(`data-${lang}`);
+      });
+      document.getElementById('clientVat').placeholder = lang === 'hr' ? 'npr. SI12345678' : 'npr. SI12345678';
+      document.getElementById('clientEmail').placeholder = lang === 'hr' ? 'npr. ime@firma.si' : 'npr. ime@podjetje.si';
+      document.getElementById('clientCompanyContact').placeholder = lang === 'hr' ? 'npr. Naziv firme d.o.o., +386 ...' : 'npr. Naziv podjetja d.o.o., +386 ...';
+      document.getElementById('orderNotes').placeholder = lang === 'hr'
+        ? 'npr. radno vrijeme skladišta, viličar, rampa ili posebne upute...'
+        : 'npr. delovni čas skladišča, viličar, rampa ali posebna navodila...';
+      calcPrice();
+    }
+
+    function calcPrice() {
+      const km = parseFloat(document.getElementById('km').value) || 0;
+      const weight = parseFloat(document.getElementById('weight').value) || 0;
+      const pallets = parseInt(document.getElementById('pallets').value, 10) || 0;
+      const urgency = document.getElementById('urgency').value;
+
+      let rate = 0.78;
+      let vehicle = 'Kombi Express (do 1.3t)';
+
+      if (weight > 1300 || pallets > 10) {
+        rate = 1.35;
+        vehicle = lang === 'hr' ? 'Solo kamion / Šleper' : 'Solo tovornjak / Vlačilec';
+      } else if (pallets > 5) {
+        rate = 0.92;
+        vehicle = lang === 'hr' ? 'Kombi s ceradom' : 'Kombi s ponjavo';
+      }
+
+      let base = Math.max(65, km * rate);
+      if (urgency === 'express') base *= 1.25;
+
+      const minP = Math.round(base * 0.95);
+      const maxP = Math.round(base * 1.12);
+
+      const prefix = lang === 'hr' ? 'Preporučeno' : 'Priporočeno';
+      document.getElementById('priceOut').textContent = `${minP} € – ${maxP} €`;
+      document.getElementById('vehicleOut').textContent = `${prefix}: ${vehicle}`;
+    }
+
+    function clearFieldError() {
+      const emailEl = document.getElementById('clientEmail');
+      const contactEl = document.getElementById('clientCompanyContact');
+      const statusEl = document.getElementById('statusMsg');
+      emailEl.classList.remove('invalid-field');
+      contactEl.classList.remove('invalid-field');
+      statusEl.textContent = '';
+      statusEl.classList.remove('error');
+    }
+
+    function buildOrderMessage() {
+      const a = document.getElementById('pointA').value.trim();
+      const b = document.getElementById('pointB').value.trim();
+      const km = document.getElementById('km').value.trim();
+      const w = document.getElementById('weight').value.trim();
+      const p = document.getElementById('pallets').value.trim();
+      const pickupDate = document.getElementById('pickupDate').value || 'nije naveden';
+      const urgSelect = document.getElementById('urgency');
+      const urg = urgSelect.options[urgSelect.selectedIndex].text;
+      const clientVat = document.getElementById('clientVat').value.trim() || 'nije unesen';
+      const clientEmail = document.getElementById('clientEmail').value.trim() || 'nije unesen';
+      const clientContact = document.getElementById('clientCompanyContact').value.trim() || 'nije unesen';
+      const notes = document.getElementById('orderNotes').value.trim() || 'nema napomene';
+      const price = document.getElementById('priceOut').textContent;
+      const vehicle = document.getElementById('vehicleOut').textContent;
+
+      return (
+        `Poštovani HODŽIĆ TRANSPORT s.p.,\n\n` +
+        `Podaci naručioca:\n` +
+        `- E-mail naručioca: ${clientEmail}\n` +
+        `- Kontakt firme / telefon: ${clientContact}\n` +
+        `- OIB / ID porezni broj: ${clientVat}\n\n` +
+        `Podaci o prijevozu:\n` +
+        `- Relacija: ${a} -> ${b} (${km} km)\n` +
+        `- Datum utovara: ${pickupDate}\n` +
+        `- Težina: ${w} kg | EUR paleta: ${p}\n` +
+        `- Vrsta usluge: ${urg}\n` +
+        `- ${vehicle}\n` +
+        `- Informativna procjena: ${price}\n` +
+        `- Napomena za utovar / istovar: ${notes}\n\n` +
+        `Molim ponudu / potvrdu termina.`
+      );
+    }
+
+    function handleOrderSubmit(event) {
+      event.preventDefault();
+      const a = document.getElementById('pointA').value.trim();
+      const b = document.getElementById('pointB').value.trim();
+      const emailEl = document.getElementById('clientEmail');
+      const contactEl = document.getElementById('clientCompanyContact');
+      const statusEl = document.getElementById('statusMsg');
+      const clientEmail = emailEl.value.trim();
+      const clientContact = contactEl.value.trim();
+
+      clearFieldError();
+
+      if (!clientEmail || !clientContact) {
+        if (!clientEmail) emailEl.classList.add('invalid-field');
+        if (!clientContact) contactEl.classList.add('invalid-field');
+        statusEl.classList.add('error');
+        statusEl.textContent = lang === 'hr'
+          ? 'Obavezno unesite svoj e-mail i kontakt firme / telefon.'
+          : 'Obvezno vnesite svoj e-poštni naslov in kontakt podjetja / telefon.';
+        return;
+      }
+
+      const subject = encodeURIComponent(`Upit za prijevoz: ${a} -> ${b}`);
+      const body = encodeURIComponent(buildOrderMessage());
+      window.location.href = `mailto:hodzictransport87@gmail.com?subject=${subject}&body=${body}`;
+    }
+
+    function copyOrderText() {
+      const text = buildOrderMessage();
+      const statusEl = document.getElementById('statusMsg');
+      statusEl.classList.remove('error');
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          statusEl.textContent = lang === 'hr'
+            ? 'Podaci su kopirani u međuspremnik.'
+            : 'Podatki so kopirani v odložišče.';
+        }).catch(() => {
+          statusEl.textContent = lang === 'hr'
+            ? 'Nije moguće automatski kopirati.'
+            : 'Samodejno kopiranje ni uspelo.';
+        });
+      } else {
+        statusEl.textContent = lang === 'hr'
+          ? 'Koristite dugme za slanje na e-mail.'
+          : 'Uporabite gumb za pošiljanje po e-pošti.';
+      }
+    }
+
+    calcPrice();
+  </script>
+</body>
+</html>
